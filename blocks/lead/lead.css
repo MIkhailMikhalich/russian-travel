@@ -6,7 +6,8 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding: 0 148px 0 148px;
-  margin-bottom: 92px;
+  margin: 56px 148px 92px 148px;
+  max-width: 984px;
+  max-height: 1005px;
+  box-sizing: content-box;
 }
-
