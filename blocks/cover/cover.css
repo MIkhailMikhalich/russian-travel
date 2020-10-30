@@ -2,14 +2,32 @@
 @import url(./__title/cover__title.css);
 
 .cover{
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 92px auto 92px auto;
-  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/cover-trains.jpg);
+  background-image: url(../../images/cover-trains.jpg);
   min-height: 740px;
   max-width: 1184px;
   background-size: cover;
   flex-direction: column;
   text-align: center;
+}
+.cover::before
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #2A2C2F;
+  opacity: 0.3;
+  display: block;
+  content: "";
+  transition: opacity .5s ease-in-out;
+}
+.cover:hover::before
+{
+  opacity: 0.8;
 }
