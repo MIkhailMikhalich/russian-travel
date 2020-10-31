@@ -8,12 +8,28 @@
 
 
   color: #FFFFFF;
-  margin: 0 0 26px 0;
-  flex-wrap: wrap;
-  display: flex;
-  width: 484px;
+  margin:0 0 26px 0;
+  max-width: 484px;
+  padding: 0;
+  white-space: normal;
+  text-align: left;
 }
 .place__paragraph:last-child
 {
   margin: 0;
+}
+
+@media screen and (max-width: 1024px)
+{
+  .place__paragraph
+  {
+    max-width: 456px;
+  }
+}
+@media screen and (max-width:768px)
+{
+  .place__paragraph
+  {
+    max-width: 352px;
+  }
 }

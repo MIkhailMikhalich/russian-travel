@@ -1,12 +1,27 @@
 .place__image
 {
   max-width: 460px;
-  margin: 0 40px 0 0;
-  float: left;
+  margin: 0;
+  padding: 0;
 }
 .place__image::before
 {
   content: "";
   display: block;
   padding-bottom: 100%;
+}
+
+@media screen and (max-width: 1024px)
+{
+  .place__image
+  {
+    max-width: 440px;
+  }
+}
+@media screen and (max-width:768px)
+{
+  .place__image
+  {
+    max-width: 340px;
+  }
 }

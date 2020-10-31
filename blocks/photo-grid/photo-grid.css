@@ -4,6 +4,33 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 16px;
-  padding: 0 48px 92px 48px;
+  margin: 0 auto 92px auto;
   object-fit: contain;
+  max-width: 1184px;
+}
+
+@media screen and (max-width:1280px)
+{
+  .photo-grid
+  {
+  margin: 0 48px 92px 48px;
+
+  }
+}
+@media screen and (max-width: 1024px)
+{
+  .photo-grid{
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 928px;
+    min-height: 942px;
+  }
+}
+@media screen and (max-width: 768px)
+{
+  .photo-grid{
+    grid-template-columns: repeat(2, 1fr);
+    margin: 88px 24px;
+    max-width: 720px;
+    min-height: 1664px;
+  }
 }

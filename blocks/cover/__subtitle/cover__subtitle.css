@@ -7,9 +7,10 @@
   line-height: 1.25;
   max-width: 360px;
   max-height: 66px;
-
+  text-decoration: none;
   text-align: center;
   margin: 0;
   color: #FFFFFF;
+  padding: 0;
   z-index: 2;
 }
