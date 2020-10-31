@@ -3,3 +3,10 @@
   max-width: inherit;
   max-height: 615px;
 }
+@media screen and (max-width:320px)
+{
+  .lead__image{
+    max-height: 200px;
+
+  }
+}

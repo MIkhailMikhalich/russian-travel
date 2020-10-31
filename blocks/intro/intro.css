@@ -3,7 +3,7 @@
 @import url(./__title/intro__title.css);
 .intro{
   max-width: 690px;
-  max-height: 509px;
+
   margin: 0 auto 0 auto;
   padding-bottom:  92px;
 }
@@ -26,6 +26,16 @@
   .intro{
     margin: 0 24px;
     max-width: 720px;
-    max-height: 429px;
+
+    padding-bottom: 0;
+  }
+}
+@media screen and (max-width: 320px)
+{
+  .intro
+  {
+    max-width: 288px;
+    margin: 0 16px;
+    padding: 0;
   }
 }

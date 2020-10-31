@@ -22,7 +22,7 @@
   .photo-grid{
     grid-template-columns: repeat(3, 1fr);
     max-width: 928px;
-    min-height: 942px;
+
   }
 }
 @media screen and (max-width: 768px)
@@ -31,6 +31,14 @@
     grid-template-columns: repeat(2, 1fr);
     margin: 88px 24px;
     max-width: 720px;
-    min-height: 1664px;
+  }
+}
+@media screen and (max-width: 320px)
+{
+  .photo-grid
+  {
+    grid-template-columns: 1fr;
+    margin: 0 16px 64px 16px;
+    max-width: 720px;
   }
 }

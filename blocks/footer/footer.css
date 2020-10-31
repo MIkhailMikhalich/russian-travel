@@ -8,7 +8,6 @@
   justify-content: space-between;
   margin: 0 auto 24px auto;
   color: #ffff;
-  max-height: 18px;
   max-width: 1184px;
 }
 @media screen and (max-width: 1280px)
@@ -22,5 +21,14 @@
 {
   .footer{
     margin: 0 24px 24px 24px;
+  }
+}
+@media screen and (max-width:320px)
+{
+  .footer{
+    max-width: 186px;
+
+    margin: 0 118px 24px 16px;
+    flex-direction: column;
   }
 }

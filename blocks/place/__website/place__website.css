@@ -1,4 +1,12 @@
 .place__website
 {
   margin-top: auto;
+  max-height: 46px;
+}
+@media screen and (max-width: 320px)
+{
+  .place__website
+  {
+    display: none;
+  }
 }
