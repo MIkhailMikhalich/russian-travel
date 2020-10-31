@@ -46,8 +46,6 @@
 {
   .place
   {
-    grid-template-columns: 340px 352px;
-    max-width: 720px;
-    max-height: 581px;
+
   }
 }
