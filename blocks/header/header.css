@@ -4,7 +4,6 @@
 
 .header{
   margin: 28px auto 0 auto;
-  max-height: 52px;
   max-width: 1184px;
   display: flex;
   flex-direction: row;
