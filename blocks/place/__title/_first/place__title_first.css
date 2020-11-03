@@ -1,0 +1,6 @@
+@media screen and (max-width: 768px)
+{
+  .place__title_first{
+    max-width: 255px;
+  }
+}
