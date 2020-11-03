@@ -32,5 +32,6 @@
     line-height: calc(35/32);
     max-height: 35px;
     white-space: nowrap;
+    margin: 0 16px 0 16px;
   }
 }

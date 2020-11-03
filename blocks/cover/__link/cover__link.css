@@ -1,0 +1,30 @@
+.cover__link
+{
+  display: flex;
+  width: inherit;
+  height: inherit;
+  z-index: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.cover__link::before
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #2A2C2F;
+  opacity: 0.3;
+  display: block;
+  content: "";
+  transition: opacity .5s ease-in-out;
+}
+.cover__link:hover::before
+{
+  opacity: 0.8;
+  cursor: pointer;
+}
