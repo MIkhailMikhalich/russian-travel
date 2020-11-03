@@ -5,13 +5,14 @@
   grid-template-rows: min-content;
   row-gap: 80px;
   margin: 0 auto 92px auto;
-
+  width: 100%;
 }
 
 @media screen and (max-width:1280px)
 {
   .places
   {
+    max-width: 984px;
     margin: 0 148px 92px 148px;
   }
 }
