@@ -1,47 +1,6 @@
 .body{
   background-color: #2a2c2f;
-  font-family: Inter;
-  width: 100%;
-}
-@media screen and (max-width: 1280px)
- {
-   .body
-   {
-     max-width: 1280px;
-   }
- }
- @media screen and (max-width: 1024px)
- {
-   .body{
-     min-width: 1024px;
-   }
-}
-@media screen and (max-width: 768px)
-{
-  .body{
-    min-width: 768px;
-  }
-}
-@media screen and (max-width: 320px)
-{
-  .body
-  {
-    min-width: 320px;
-  }
+  font-family: "Inter";
 }
 
-a
-{
-  color: #ffff;
-  text-decoration: none;
-}
-a:visited
-{
-  color: #ffff;
-  text-decoration: none;
-}
-a:active
-{
-  color: #ffff;
-  text-decoration: none;
-}
+

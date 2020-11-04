@@ -15,3 +15,13 @@
 {
   cursor: pointer;
 }
+.place__link:visited
+{
+  color: #ffff;
+  text-decoration: none;
+}
+.place__link:active
+{
+  color: #ffff;
+  text-decoration: none;
+}

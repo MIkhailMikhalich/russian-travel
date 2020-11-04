@@ -9,6 +9,8 @@
   align-items: center;
   margin: 0;
   padding: 0;
+  color: #ffff;
+  text-decoration: none;
 }
 .cover__link::before
 {
@@ -27,4 +29,14 @@
 {
   opacity: 0.8;
   cursor: pointer;
+}
+.cover__link:visited
+{
+  color: #ffff;
+  text-decoration: none;
+}
+.cover__link:active
+{
+  color: #ffff;
+  text-decoration: none;
 }

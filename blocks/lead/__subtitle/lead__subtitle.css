@@ -8,9 +8,7 @@
   margin: 0 0 64px 0;
   color: #FFFFFF;
   max-width: 640px;
-  max-height: 72px;
   padding: 0;
-  width: 100%;
 }
 @media screen and (max-width:320px)
 {
