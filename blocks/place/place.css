@@ -24,7 +24,7 @@
 {
   .place
   {
-    grid-template-columns: 440px 456px;
+    grid-template-columns: 440px 486px;
     max-width: 928px;
     column-gap: 32px;
   }
