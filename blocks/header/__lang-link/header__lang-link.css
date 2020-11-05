@@ -3,16 +3,17 @@
   font-weight: normal;
   font-size: 24px;
   line-height: calc(28/24);
-  margin: 18px 18px 0 0;
+  padding: 0;
   display: flex;
   color: #FFFFFF;
   text-align: right;
-  text-decoration: underline;
-}
-.header__lang-link:last-child{
-  margin: 18px 0 0 0;
   text-decoration: none;
 }
+.header__lang-link:last-child{
+  padding-left: 18px;
+}
+
+
 
 @media screen and (max-width: 320px)
 {
