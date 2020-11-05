@@ -9,7 +9,7 @@
   padding: 56px 0 92px 0;
   margin: 0 auto 0 auto;
   max-width: 984px;
-  overflow: hidden;
+
 }
 
 @media screen and (max-width:1280px)
@@ -35,9 +35,7 @@
 {
   .lead
   {
-    margin: 0;
     max-width: 768px;
-    max-height: 862px;
     padding: 48px 0 88px 0;
   }
 }

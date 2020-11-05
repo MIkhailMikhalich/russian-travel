@@ -16,13 +16,4 @@
     margin-bottom: 32px;
   }
 }
-@media screen and (max-width:425px)
-{
-  .footer__links
-  {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 32px;
-    margin-bottom: 32px;
-  }
-}
+
