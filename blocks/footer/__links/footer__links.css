@@ -6,14 +6,23 @@
   padding: 0;
 
 }
-.footer__links:last-child
-{
-  margin: 0;
-}
-@media screen and (max-width:320px)
+@media screen and (max-width:660px)
 {
   .footer__links
   {
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 32px;
+    margin-bottom: 32px;
+  }
+}
+@media screen and (max-width:425px)
+{
+  .footer__links
+  {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 32px;
+    margin-bottom: 32px;
   }
 }
