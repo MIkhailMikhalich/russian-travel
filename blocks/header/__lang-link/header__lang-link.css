@@ -23,3 +23,18 @@
     line-height: calc(20/18);
   }
 }
+.header__lang-link:visited
+{
+  color: #ffff;
+  text-decoration: none;
+}
+.header__lang-link:active
+{
+  color: #ffff;
+  text-decoration: none;
+}
+.header__lang-link:hover
+{
+  cursor: pointer;
+  opacity: 0.8;
+}
